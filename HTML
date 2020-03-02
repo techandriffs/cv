@@ -1,0 +1,63 @@
+<h1><strong>Overview</strong></h1>
+
+<p>Help us quickly identify cases of pneumonia in children. Our goal is to help flag serious cases, quickly identify healthy cases, and act as a diagnostic aid for doctors.</p>
+<hr>
+
+<h1><strong>Steps</strong></h1>
+
+<ol>
+	<li>Examine the image.</li>
+	<li>If there are <strong>pneumonia symptoms</strong> in the image, check the appropriate box ('Yes', 'No', or 'Unknown').</li>
+</ol>
+<hr>
+
+<h1><strong>Rules Tips</strong></h1>
+
+<p><strong>Rules:</strong></p>
+
+<ul>
+	<li>Only look for <strong>p</strong><strong>neumonia</strong> symptoms</li>
+	<li>Pneumonia symptoms must be <strong>visible</strong> in heart, lungs (ribs), and/or diaphragm</li>
+	<li>Images <strong>missing areas</strong> of heart, lungs (ribs), and/or diaphragm must be checked as 'Unknown'.</li>
+	<li>Images with <strong>any unidentifiable objects</strong> in heart, lungs (ribs), and/or diaphragm must be deemed 'Unknown'.</li>
+</ul>
+
+<p><strong>Tips</strong>:</p>
+
+<ul>
+	<li>A <strong>normal</strong>, healthy image (below) depicting clear lungs without any areas of abnormal cloudiness/opacity; there may be structured, web-like vasculature in the lungs but otherwise that area should be clear. In healthy images, you are also more likely to see a diaphragm shadow.</li>
+</ul>
+
+<p><img src="https://s3.amazonaws.com/crowdflower-make-cloud/images%2F1583096818479-healthy-example.png" class="fr-fic fr-dii" style="width: 853px;"></p>
+
+<ul>
+	<li>A <strong>pneumonia</strong> image (below) may include a few things: areas of cloudiness/opacity in several concentrated areas or one large area. You may also see a general pattern of opacity that obscures the structure of the lungs, heart and diaphragm.</li>
+</ul>
+
+<p><img src="https://s3.amazonaws.com/crowdflower-make-cloud/images%2F1583096803779-pneumonia-examples.png" class="fr-fic fr-dii">
+	<br>
+</p>
+<hr>
+
+<h1>Examples</h1>
+
+<table style="width: 100%;">
+	<tbody>
+		<tr>
+			<td style="width: 46.8373%;"><img src="https://s3.amazonaws.com/crowdflower-make-cloud/images%2F1583104068947-im-0546-0001.jpg" style="width: 382px;height: 300.188px;" class="fr-fic fr-dib"></td>
+			<td style="width: 53.0874%;text-align: center;"><img src="https://s3.amazonaws.com/crowdflower-make-cloud/images%2F1583108304924-Screen+Shot+2020-03-01+at+4.17.58+PM.png" style="width: 407px; height: 151.819px;" class="fr-fic fr-dib">Example of normal <strong>without</strong> no visible pneumonia symptoms.
+				<br>Heart, lungs, and diaphragm areas are visible in image.</td>
+		</tr>
+		<tr>
+			<td style="width: 46.8373%;">
+				<br><img src="https://s3.amazonaws.com/crowdflower-make-cloud/images%2F1583104026088-img597-im1002-2451.jpg" style="width: 388px;height: 277.117px;" class="fr-fic fr-dib"></td>
+			<td style="width: 53.0874%;text-align: center;"><img src="https://s3.amazonaws.com/crowdflower-make-cloud/images%2F1583108318384-Screen+Shot+2020-03-01+at+4.17.58+PM.png" style="width: 404px; height: 150.7px;" class="fr-fic fr-dib">Example of pneumonia <strong>with</strong>visible symptoms.
+				<br>Heart, lungs, and diaphragm areas are visible in image.</td>
+		</tr>
+		<tr>
+			<td><img src="https://s3.amazonaws.com/crowdflower-make-cloud/images%2F1583105677476-Screen+Shot+2020-03-01+at+3.34.18+PM.png" style="width: 384px;height: 491.22px;" class="fr-fic fr-dib"></td>
+			<td style="text-align: center;"><img src="https://s3.amazonaws.com/crowdflower-make-cloud/images%2F1583108327516-Screen+Shot+2020-03-01+at+4.17.58+PM.png" style="width: 423px; height: 157.787px;" class="fr-fic fr-dib">Example of unknown - <strong>uncertain</strong> if symptoms exist or not.
+				<br>Heart, lungs, and/or diaphragm areas are missing from image.</td>
+		</tr>
+	</tbody>
+</table>
